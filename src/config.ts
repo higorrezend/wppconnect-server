@@ -22,6 +22,7 @@ export default {
     onRevokedMessage: true,
     onLabelUpdated: true,
     onSelfMessage: false,
+    onStatusBroadcast: true,
   },
   chatwoot: {
     sendQrCode: true,

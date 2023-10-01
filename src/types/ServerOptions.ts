@@ -23,6 +23,7 @@ export interface ServerOptions {
     onPollResponse: boolean;
     onRevokedMessage: boolean;
     onSelfMessage: boolean;
+    onStatusBroadcast: boolean;
   };
   archive: {
     enable: boolean;
